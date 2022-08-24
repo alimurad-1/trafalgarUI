@@ -21,7 +21,6 @@ const Hero = () => {
             className="hero-section-img-tag"
             src={HealthcareImage}
             width="600px"
-            alt="healthcare image"
           />
         </div>
       </div>
