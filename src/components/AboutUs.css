@@ -6,7 +6,7 @@
 .about-section-container{
     display: grid;
     grid-template-columns: 15rem 3fr 2fr 15rem;
-    padding-top: 15%;
+    padding-top: 5%;
     align-items: center;
 }
 
