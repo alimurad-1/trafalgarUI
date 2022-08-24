@@ -1,0 +1,55 @@
+.footer-section{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    display: grid;
+    grid-template-columns: 10rem 3fr repeat(3,1fr) 10rem;
+    column-gap: 3rem;
+    padding: 10% 0 5%;;
+}
+
+.company-overview{
+    grid-column: 2/3;
+}
+
+.company-overview h1{
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.company-overview h1 span {
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.3rem 1.3rem;
+  color: #458FF6;
+  margin-right: 1rem;
+}
+
+.footer-section p{
+    color: white;
+    font-size: 2rem;
+    width: 70%;
+    font-weight: 200;
+    line-height: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.footer-list h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.footer-list li{
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+@media(max-width:1023px){
+  .footer-section{
+    display: none;
+  }
+}

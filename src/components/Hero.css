@@ -1,0 +1,94 @@
+.hero-section{
+    height: 100vh;
+}
+
+.hero-section-container{
+    display: grid;
+    grid-template-columns: 20rem 2fr 2fr 20rem;
+    align-items: center;
+}
+
+.hero-section-text{
+    grid-column: 2/3;
+    width: 85%;
+    margin-top: 20rem;
+}
+
+.hero-section-heading{
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero-section-paragraph{
+    font-size: 2.1rem;
+    line-height: 2.9rem;
+    margin-bottom: 3.3rem;
+    color: #233348;
+}
+
+.hero-section-button{
+    font-size: 2rem;
+    background-color: #458FF6;
+    border: 0px;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero-section-button:hover{
+    background-color: white;
+    color: #458FF6;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.hero-section-image{
+    grid:3/4;
+    margin-top: 10%;
+    right: 0;
+}
+
+.hero-section-img-tag{
+   transform: translateY(15%);
+}
+
+.responisve-message{
+    display: none;
+}
+
+@media(max-width:1023px){
+  .hero-section-container{
+    display: none;
+  }
+
+.responisve-message{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    font-size: 2rem;
+    color:#233348;
+    justify-content:center;
+    margin-top: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.responisve-message h1{
+    grid-row: 2/3;
+    
+}
+
+.responisve-message p{
+    grid-row: 3/4;
+    font-weight: 700;
+}
+
+.responisve-message a{
+    grid-row: 4/5;
+    text-decoration: none;
+    color:#233348;
+}
+}
